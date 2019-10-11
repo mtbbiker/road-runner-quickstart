@@ -2,21 +2,16 @@ package org.firstinspires.ftc.teamcode.drive.opmode;
 
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
-import org.firstinspires.ftc.teamcode.drive.mecanum.SampleMecanumDriveBase;
-import org.firstinspires.ftc.teamcode.drive.mecanum.SampleMecanumDriveREV;
+import org.firstinspires.ftc.teamcode.drive.tank.SampleTankDriveBase;
+import org.firstinspires.ftc.teamcode.drive.tank.SampleTriRobotDriveREV;
 
-/*
- * This is an example of a more complex path to really test the tuning.
- */
-@Disabled
 @Autonomous(group = "drive")
-public class SplineTest extends LinearOpMode {
+public class SplineTestTriRobot extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
-        SampleMecanumDriveBase drive = new SampleMecanumDriveREV(hardwareMap);
+        SampleTankDriveBase drive = new SampleTriRobotDriveREV(hardwareMap);
 
         waitForStart();
 

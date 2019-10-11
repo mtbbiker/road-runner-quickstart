@@ -13,7 +13,7 @@ import org.firstinspires.ftc.teamcode.drive.mecanum.SampleMecanumDriveBase;
 import org.firstinspires.ftc.teamcode.drive.mecanum.SampleMecanumDriveREV;
 import org.firstinspires.ftc.teamcode.util.LoggingUtil;
 
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.getMaxRpm;
+import static org.firstinspires.ftc.teamcode.drive .DriveConstants.getMaxRpm;
 import static org.firstinspires.ftc.teamcode.drive.DriveConstants.rpmToVelocity;
 
 /*
