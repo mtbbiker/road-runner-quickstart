@@ -52,7 +52,7 @@ public class SampleTriRobotDriveREV extends SampleTankDriveBase{
         }
 
         // TODO: reverse any motors using DcMotor.setDirection()
-        for (DcMotorEx motor : rightMotors) {
+        for (DcMotorEx motor : leftMotors) {
             motor.setDirection(DcMotor.Direction.REVERSE);
         }
 

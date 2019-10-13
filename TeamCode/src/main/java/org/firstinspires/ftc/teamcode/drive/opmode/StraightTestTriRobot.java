@@ -12,7 +12,7 @@ import org.firstinspires.ftc.teamcode.drive.tank.SampleTriRobotDriveREV;
 @Autonomous(group = "drive")
 public class StraightTestTriRobot extends LinearOpMode {
 
-    public static double DISTANCE = 60;
+    public static double DISTANCE = 2;
     @Override
     public void runOpMode() throws InterruptedException {
 
